@@ -1,0 +1,11 @@
+/* function binaryToDecimal(value){
+   
+    let sum = 0 ;
+    for (let i = 0; i < value.lenght; i++){
+        let bit = value.charAt(value.lenght-i);
+            sum += parseInt(bit) * pow(2, i);
+}
+ 
+console.log(sum);
+}
+ */
