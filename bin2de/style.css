@@ -1,11 +1,29 @@
-/* function binaryToDecimal(value){
-   
-    let sum = 0 ;
-    for (let i = 0; i < value.lenght; i++){
-        let bit = value.charAt(value.lenght-i);
-            sum += parseInt(bit) * pow(2, i);
+body{
+    background: #5DBB7B;
+    font: normal 15px arial;
+
 }
- 
-console.log(sum);
+header{
+    color: white;
+    text-align: center;
+
 }
- */
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #041704 rgba(04, 17, 04, 0,3);
+
+}
+div{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+
+}

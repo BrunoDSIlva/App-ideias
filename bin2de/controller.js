@@ -1,14 +1,11 @@
-function calc (){
+function convert () {
+    let binar = window.document.getElementById('binary').value;
 
-    let binary = document.getElementsByClassName('b-num');
-    let sum = 0;  
-
-    for (let i =0; i< binary.length; i++){
-        let algorism = binary.charAt(binary.length-i);
-        sum += parseInt(algorism) * pow(2,i);
-
+    if (bianr >= 9 ){
+        alert("You just can enter up 8 binary digits check you input field")
+        return;
+    }else if(binar.match(/^[0-1]/g) === null){
+        alert("User can enter only 0 to 1")
+        return;
     }
-    
-    
-    let decimal = document.getElementsByClassName('d-num').innerHTML = sum;
 }
