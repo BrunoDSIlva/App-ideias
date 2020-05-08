@@ -19,6 +19,10 @@ section{
 }
 div{
     text-align: center;
+    
+}
+div input{
+    margin: 10px 20px;
 }
 footer{
     color: white;
