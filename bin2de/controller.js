@@ -12,11 +12,11 @@ function convert () {
                 let result = 0;
                             for(let i = 0; i < binar.length; i++) {
                                     let digit = binar.charAt(binar.length -i -1)
-                                    return document.getElementById('result') = result += Number(digit) * Math.pow(2,i)
+                                    result += Number(digit) * Math.pow(2,i)
                                     
                                 }
                                     
-                                
+                                document.querySelector("#decimal").innerHTML = result
             }
                                 
     
