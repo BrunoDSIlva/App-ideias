@@ -48,7 +48,7 @@
                 case '-':
                     computation =prev - current
                     break
-                case '*':
+                case 'x':
                     computation =prev * current
                     break
                 case '/':
@@ -87,14 +87,13 @@
             this.currentDisplayText.innerText = this.getDisplayNumber(this.currentOperand)
 
             if (this.operation != null ){
+
                 this.previousdisplayText.innerText =
-               `${this.getDisplayNumber( this.currentOperand)
-               } ${this.operation}`
+               `${this.getDisplayNumber( this.previousOperand)
+               }${this.operation}`
 
             }
-            else{
-                this.previousdisplayText.innerText = ''
-            }
+            
 
 
         }
