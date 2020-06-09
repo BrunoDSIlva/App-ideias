@@ -92,6 +92,8 @@
                `${this.getDisplayNumber( this.previousOperand)
                }${this.operation}`
 
+            }else{
+                this.previousdisplayText.innerText = ''
             }
             
 
